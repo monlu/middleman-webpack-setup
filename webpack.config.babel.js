@@ -20,7 +20,7 @@ export default {
   module: {
     loaders: [
       {test: /\.js$/, include: path.join(__dirname, 'source/javascripts'), loader: 'babel' },
-      {test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css', 'sass', "css!sass?sourceMap&includePaths[]=" + __dirname + "/node_modules")}
+      {test: /\.scss$/, loader: ExtractTextPlugin.extract('style', "css!sass?sourceMap&includePaths[]=" + __dirname + "/node_modules")}
     ]
   },
   plugins: [
