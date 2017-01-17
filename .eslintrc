@@ -1,0 +1,15 @@
+
+{
+  "extends": "airbnb/base",
+  # ,
+  "rules": {
+    # "valid-jsdoc": [2, {
+    #   "requireReturn": false,
+    #   "requireReturnDescription": false,
+    #   "prefer": {
+    #     "returns": "return"
+    #   }
+    # }],
+    "no-console": 0
+  }
+}
